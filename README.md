@@ -7,6 +7,11 @@ wines.data
 
 El dataset provee las cantidades de 13 constituyentes que se encuentran en tres tipos de vinos, así como el tipo de vino al que pertenece cada registro.
 
+## Librerias Empleadas
+* Pandas: Empleado para el manejo de dataframes.
+* Sklearn: Empleado para el desarrollo del modelo.
+* Graphviz: Empleado para graficar el modelo obtenido.
+
 ## Desempeño del Modelo / Métrica
 
 Métrica: ***Presición (Accuracy)***
@@ -42,7 +47,7 @@ El resultado nos indica que tanto la precisión del modelo con los datos de entr
 1    |   1|
 
 
-## Archivo a revisar
+## Archivos a revisar
 Aprendizaje_Maquina_Framework.ipynb
 
 Aprendizaje_Maquina_Framework.py
