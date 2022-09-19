@@ -86,5 +86,5 @@ print("Presición Modelo Datos de Prueba:", test_score)
 y_pred = model.predict(x)
 
 # Comparación primeros 10 datos
-comp_table = pd.DataFrame({'Real': data['Class'], 'Prediccion': y_pred})
+comp_table = pd.DataFrame({'Clase Real': data['Class'], 'Prediccion': y_pred, columns[1]: data[columns[1]], columns[2]: data[columns[2]], columns[3]: data[columns[3]], columns[4]: data[columns[4]], columns[5]: data[columns[5]], columns[6]: data[columns[6]], columns[7]: data[columns[7]], columns[8]: data[columns[8]], columns[9]: data[columns[9]], columns[10]: data[columns[10]], columns[11]: data[columns[11]], columns[12]: data[columns[12]], columns[13]: data[columns[13]]})
 print(comp_table.head(10))
